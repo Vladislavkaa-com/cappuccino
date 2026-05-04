@@ -1,0 +1,96 @@
+body {
+  background-color: #9b9490;
+  margin: 0%;
+  padding: 0%;
+  color: #392a23;
+  font-family: "Istok Web";
+}
+.main__container {
+  margin-block: 5%;
+  margin-left: 25%;
+}
+.main__img {
+  margin-left: 5%;
+  position: absolute;
+  max-width: 43%;
+}
+.main__bg {
+  margin-top: 20%;
+  position: relative;
+  z-index: -1;
+  max-width: 70%;
+}
+.text__container {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+}
+.milk__container,
+.size__container {
+  display: flex;
+  gap: 130px;
+  margin-left: 10%;
+}
+.size__container {
+  gap: 180px;
+  margin-left: 17%;
+}
+.name__main {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15%;
+}
+.text {
+  font-size: 15px;
+}
+.button__buy {
+  margin-top: 4%;
+  margin-left: 15%;
+}
+.button__style {
+  border: none;
+  border-radius: 40%;
+  padding: 2% 10%;
+  background-color: #be7a3f;
+}
+a {
+  text-decoration: none;
+  color: #392a23;
+  font-weight: bold;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+@media screen and (max-width: 500px) {
+  .main__bg {
+    margin-top: 40%;
+  }
+  .text__container {
+    top: 21%;
+  }
+  .milk__container,
+  .size__container {
+    gap: 20px;
+    margin-left: 22%;
+  }
+  .size__container {
+    gap: 15px;
+    margin-left: 40%;
+  }
+  .name__main {
+    font-size: 15px;
+    margin-left: 43%;
+  }
+  .text {
+    font-size: 7px;
+  }
+  .button__buy {
+    margin-top: 4%;
+    margin-left: 42%;
+  }
+  a {
+    font-size: 7px;
+  }
+}

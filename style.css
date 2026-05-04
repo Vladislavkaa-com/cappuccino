@@ -1,0 +1,65 @@
+@import url("main.css");
+@import url("cappuccino.css");
+body {
+  background-color: #262626;
+  margin: 0%;
+  padding: 0%;
+}
+.img__background {
+  position: relative;
+  left: 13%;
+}
+.text__container {
+  position: absolute;
+  top: 0%;
+}
+.text__nav {
+  margin: 10% 35%;
+}
+.text__style {
+  font-family: "Island Moments";
+  font-size: 200px;
+  color: #9b9490;
+}
+.text__button {
+  font-family: "Inter";
+  font-size: 50px;
+  color: #392a23;
+  text-decoration: none;
+}
+.button__nav {
+  margin-top: 35%;
+  margin-inline: 65%;
+}
+.button_style {
+  border: none;
+  border-radius: 40%;
+  background-color: #8e6349;
+  padding: 12px 107px;
+}
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+@media screen and (max-width: 500px) {
+  .img__background {
+    left: 10%;
+    max-width: 60%;
+  }
+  .text__nav {
+    margin: 5% 37%;
+  }
+  .text__style {
+    font-size: 50px;
+  }
+  .text__button {
+    font-size: 10px;
+  }
+  .button__nav {
+    margin-top: 42%;
+    margin-inline: 68%;
+  }
+  .button_style {
+    padding: 3% 15%;
+  }
+}

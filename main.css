@@ -1,0 +1,120 @@
+body {
+  background-color: #9b9490;
+  margin: 0%;
+  padding: 0%;
+  color: #392a23;
+  font-family: "Istok Web";
+}
+.main__nav {
+  text-align: center;
+  margin-inline: 20%;
+}
+.main__text {
+  font-family: "Italianno";
+  font-size: 150px;
+}
+.temperature {
+  margin-inline: 20%;
+  display: flex;
+  gap: 20%;
+}
+.coffee__hot,
+.coffee {
+  font-size: 40px;
+}
+.coffee__hot {
+  text-decoration: underline;
+}
+.img__container {
+  margin-inline: 7%;
+}
+.img__coffee {
+  display: flex;
+  gap: 15%;
+}
+.text__nav {
+  display: flex;
+}
+.name,
+.name-four {
+  font-size: 30px;
+  margin-right: 19%;
+}
+.name-four {
+  margin-left: -2%;
+}
+.img__con {
+  position: relative;
+}
+.img__cap {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 37%;
+}
+.bg__cap {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 33%;
+  z-index: -1;
+}
+.button__cap {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 40%;
+}
+.button__style {
+  border: none;
+  border-radius: 40%;
+  padding: 1% 5%;
+  background-color: #be7a3f;
+}
+a {
+  text-decoration: none;
+  color: #392a23;
+  font-size: 30px;
+}
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+@media screen and (max-width: 500px) {
+  .main__text {
+    font-size: 50px;
+  }
+  .temperature {
+    margin-inline: 25%;
+    gap: 8%;
+  }
+  .coffee__hot,
+  .coffee {
+    font-size: 15px;
+  }
+  .img__coffee {
+    gap: 13%;
+  }
+  .img__style {
+    max-width: 15%;
+  }
+  .name,
+  .name-four {
+    font-size: 12px;
+    margin-right: 17%;
+  }
+  .name-four {
+    margin-left: -4%;
+  }
+  .img__cap {
+    margin-left: 33%;
+    max-width: 40%;
+  }
+  .bg__cap {
+    margin-left: 28%;
+    max-width: 50%;
+  }
+  .button__cap {
+    margin-top: 52%;
+  }
+  a {
+    font-size: 13px;
+  }
+}
